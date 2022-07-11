@@ -29,7 +29,7 @@
 		A42672D9286E19AC002F83A7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		A42672DB286E19AC002F83A7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		A42672E1286E1AD8002F83A7 /* Gemfile */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Gemfile; sourceTree = SOURCE_ROOT; };
-		A42672E2286E1AD8002F83A7 /* Gemfile.lock */ = {isa = PBXFileReference; lastKnownFileType = file; path = Gemfile.lock; sourceTree = SOURCE_ROOT; };
+		A42672E2286E1AD8002F83A7 /* Gemfile.lock */ = {isa = PBXFileReference; lastKnownFileType = text; path = Gemfile.lock; sourceTree = SOURCE_ROOT; };
 		A42672E3286E1AD8002F83A7 /* Makefile */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Makefile; sourceTree = SOURCE_ROOT; };
 		A42672E4286E1AD8002F83A7 /* LICENSE */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = LICENSE; sourceTree = SOURCE_ROOT; };
 /* End PBXFileReference section */
@@ -95,6 +95,8 @@
 			dependencies = (
 			);
 			name = docTest;
+			packageProductDependencies = (
+			);
 			productName = docTest;
 			productReference = A42672CA286E19AC002F83A7 /* docTest.app */;
 			productType = "com.apple.product-type.application";
