@@ -2,11 +2,12 @@
 //  AppDelegate.swift
 //  docTest
 //
-//  Created by Евгений Васильев on 30.06.2022.
+//  Created by Евгений Васильев on 11.07.2022.
 //
 
 import UIKit
 
+/// App Delegate
 @main
 class AppDelegate: UIResponder, UIApplicationDelegate {
 

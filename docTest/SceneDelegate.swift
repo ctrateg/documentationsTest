@@ -2,11 +2,12 @@
 //  SceneDelegate.swift
 //  docTest
 //
-//  Created by Евгений Васильев on 30.06.2022.
+//  Created by Евгений Васильев on 11.07.2022.
 //
 
 import UIKit
 
+/// Scene delegate
 class SceneDelegate: UIResponder, UIWindowSceneDelegate {
 
     var window: UIWindow?
