@@ -13,10 +13,12 @@
 
 ### Создаст пул файлов из билджа документации и нужного нам .doccarchive, с которым мы потом взаимодействовать будем 
 
-` "xcodebuild docbuild \                 
+```
+xcodebuild docbuild \                 
 -scheme documentationsTest \                                 
 -derivedDataPath ~/Desktop \
--destination 'platform=iOS Simulator,name=iPhone 13' `
+-destination 'platform=iOS Simulator,name=iPhone 13' 
+```
 
 В принципе стандартный билд доки где 3 строка указывает путь
 
@@ -24,10 +26,12 @@
 
 ### Далее создания уже js файлов документации
 
-` (xcrun --find docc) process-archive \
+``` 
+(xcrun --find docc) process-archive \
 transform-for-static-hosting documentationsTest.doccarchive \
 --output-path docs \
---hosting-base-path documentationsTest `
+--hosting-base-path documentationsTest 
+```
 
 По строчно
 1) запускает создание
