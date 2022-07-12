@@ -16,7 +16,7 @@
 ``` "xcodebuild docbuild \                 
 -scheme documentationsTest \                                 
 -derivedDataPath ~/Desktop \
--destination 'platform=iOS Simulator,name=iPhone 13' ```
+-destination 'platform=iOS Simulator,name=iPhone 13'
 
 В принципе стандартный билд доки где 3 строка указывает путь
 
